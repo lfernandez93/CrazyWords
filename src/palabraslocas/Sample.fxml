@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-stylesheet CascadeStyle.css?>
+
+<AnchorPane id="AnchorPane" minHeight="158.0" prefHeight="158.0" prefWidth="321.0" xmlns:fx="http://javafx.com/fxml" fx:controller="palabraslocas.SampleController">
+  <children>
+    <Button fx:id="button" layoutX="229.0" layoutY="26.0" onAction="#handleButtonAction" prefWidth="78.0" text="Play Now!" />
+    <Button layoutX="229.0" layoutY="60.0" mnemonicParsing="false" onAction="#handleSalirAction" prefWidth="78.0" text="Exit" />
+  </children>
+  <effect>
+    <Reflection>
+      <input>
+        <DropShadow color="#00cc21" />
+      </input>
+    </Reflection>
+  </effect>
+  <stylesheets>
+    <URL value="@CascadeStyle.css" />
+  </stylesheets>
+</AnchorPane>
